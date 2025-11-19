@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# BetterKFC
 
-First, run the development server:
+![BetterKfc Logo](images/horse-logo.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/HimeshDua/BetterKfc-tracker)](https://github.com/yourusername/equine-tracker/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/HimeshDua/BetterKfc)](https://github.com/yourusername/equine-tracker/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/BetterKfc/BetterKfc)](https://github.com/HimeshDua/BetterKfc/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/HimeshDua/BetterKfc)](https://github.com/BetterKfc/BetterKfc/pulls)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Acknowledgments](#acknowledgments)
 
-## Learn More
+## Introduction
 
-To learn more about Next.js, take a look at the following resources:
+Welcome to Equine Tracker, the ultimate tool for horse enthusiasts. Equine Tracker is designed to help you manage and monitor the health and well-being of your beloved horses. Whether you're a seasoned equestrian or a new horse owner, Equine Tracker has you covered.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Horse Image 1](images/horse1.jpg)
+![Horse Image 2](images/horse2.jpg)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+Equine Tracker comes with a wide range of features tailored for horse care:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Horse Profiles**: Create profiles for each of your horses with essential information.
+- **Health Records**: Maintain health records, including vaccinations, medications, and vet appointments.
+- **Feeding Schedule**: Set up feeding schedules and receive reminders.
+- **Exercise Logs**: Track the exercise routines and activities of your horses.
+- **Horse Events**: Plan and manage events like competitions, shows, and rides.
+- **Community**: Connect with fellow horse enthusiasts and share your horse stories.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For a detailed guide on using these features, refer to our [User Manual](docs/user-manual.md).
+
+## Installation
+
+To start using Equine Tracker, follow these installation steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/equine-tracker.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd equine-tracker
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the application:
+
+   ```bash
+   npm start
+   ```
+
+For additional setup instructions and troubleshooting, consult the [Installation Guide](docs/installation-guide.md).
+
+## Usage
+
+Equine Tracker is user-friendly and intuitive. To get started quickly, please refer to our [User Manual](docs/user-manual.md). It covers everything from setting up your horse profiles to recording health data and scheduling events.
+
+## Contributing
+
+We welcome contributions from the horse-loving community! If you have ideas for improvements, bug reports, or want to contribute code, please check our [Contribution Guidelines](CONTRIBUTING.md) for details on how to get involved.
+
+## License
+
+Equine Tracker is open-source software licensed under the Apache License 2.0. For full details, refer to the [LICENSE](LICENSE) file.
+
+## Acknowledgments
+
+We'd like to extend our gratitude to the equestrian community for their support and inspiration. Equine Tracker wouldn't be possible without you.
+
+![Horse Image 3](images/horse3.jpg)
+![Horse Image 4](images/horse4.jpg)
+
+Thank you for choosing Equine Tracker, and may your horses thrive and gallop with joy!
