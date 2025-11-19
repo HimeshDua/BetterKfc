@@ -1,91 +1,131 @@
-
 # BetterKFC
 
 ![BetterKfc Logo](images/horse-logo.png)
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/HimeshDua/BetterKfc-tracker)](https://github.com/yourusername/equine-tracker/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/HimeshDua/BetterKfc)](https://github.com/yourusername/equine-tracker/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/BetterKfc/BetterKfc)](https://github.com/HimeshDua/BetterKfc/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/HimeshDua/BetterKfc)](https://github.com/BetterKfc/BetterKfc/pulls)
+[![GitHub Stars](https://img.shields.io/github/stars/HimeshDua/BetterKfc)](https://github.com/HimeshDua/BetterKfc/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/HimeshDua/BetterKfc)](https://github.com/HimeshDua/BetterKfc/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/HimeshDua/BetterKfc)](https://github.com/HimeshDua/BetterKfc/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/HimeshDua/BetterKfc)](https://github.com/HimeshDua/BetterKfc/pulls)
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Acknowledgments](#acknowledgments)
+3. [Tech Stack](#tech-stack)
+4. [Installation](#installation)
+5. [Development](#development)
+6. [Deployment](#deployment)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Introduction
 
-Welcome to Equine Tracker, the ultimate tool for horse enthusiasts. Equine Tracker is designed to help you manage and monitor the health and well-being of your beloved horses. Whether you're a seasoned equestrian or a new horse owner, Equine Tracker has you covered.
+BetterKFC is a modern, fast, and cleaner remake of the official KFC Pakistan website. The goal is simple: deliver a **significantly more polished, responsive, and performance‑focused user experience** than the original site. No clutter. No slow-loading components. Just a sleek UI, clean animations, and optimized ordering flows.
 
-![Horse Image 1](images/horse1.jpg)
-![Horse Image 2](images/horse2.jpg)
+Live Demo: **[https://betterkfc.vercel.app](https://betterkfc.vercel.app)**
+
+This project is intended for learning, UI/UX improvement practice, and showcasing modern frontend engineering patterns.
 
 ## Features
 
-Equine Tracker comes with a wide range of features tailored for horse care:
+* **Modern UI redesign** inspired by the original KFC PK site but optimized for usability
+* **Fully responsive** across all breakpoints
+* **Faster navigation** using Next.js routing + prefetching
+* **Menu browsing experience** with cleaner product cards
+* **Reusable components** with a scalable folder structure
+* **Improved accessibility** with semantic HTML and screen‑reader labels
+* **Performance‑focused images** using Next.js Image component
+* **Dark mode ready** (architecture supports theme expansion)
 
-- **Horse Profiles**: Create profiles for each of your horses with essential information.
-- **Health Records**: Maintain health records, including vaccinations, medications, and vet appointments.
-- **Feeding Schedule**: Set up feeding schedules and receive reminders.
-- **Exercise Logs**: Track the exercise routines and activities of your horses.
-- **Horse Events**: Plan and manage events like competitions, shows, and rides.
-- **Community**: Connect with fellow horse enthusiasts and share your horse stories.
+## Tech Stack
 
-For a detailed guide on using these features, refer to our [User Manual](docs/user-manual.md).
+* **Next.js 14 (App Router)**
+* **TypeScript**
+* **TailwindCSS** for styling
+* **ShadCN UI** for components
+* **Framer Motion** for animations
+* **Vercel** for deployment
 
 ## Installation
 
-To start using Equine Tracker, follow these installation steps:
+Clone the repo:
 
-1. Clone the repository:
+```bash
+git clone https://github.com/HimeshDua/BetterKfc.git
+cd BetterKfc
+```
 
-   ```bash
-   git clone https://github.com/yourusername/equine-tracker.git
-   ```
+Install dependencies:
 
-2. Navigate to the project directory:
+```bash
+npm install
+```
 
-   ```bash
-   cd equine-tracker
-   ```
+Run locally:
 
-3. Install the required dependencies:
+```bash
+npm run dev
+```
 
-   ```bash
-   npm install
-   ```
+The app will be available at:
 
-4. Start the application:
+```
+http://localhost:3000
+```
 
-   ```bash
-   npm start
-   ```
+## Development
 
-For additional setup instructions and troubleshooting, consult the [Installation Guide](docs/installation-guide.md).
+### Directory Structure
 
-## Usage
+```
+app/
+  ├─ components/
+  ├─ menu/
+  ├─ layout.tsx
+  └─ page.tsx
+public/
+src/
+```
 
-Equine Tracker is user-friendly and intuitive. To get started quickly, please refer to our [User Manual](docs/user-manual.md). It covers everything from setting up your horse profiles to recording health data and scheduling events.
+### Environment Variables
+
+No sensitive env vars are required for basic development.
+
+### Scripts
+
+```bash
+npm run dev     # start dev server
+npm run build   # production build
+npm run start   # start production server
+```
+
+## Deployment
+
+The project is fully optimized for **Vercel**, but any Node-based hosting can run it.
+
+Deploy to Vercel:
+
+```bash
+vercel
+```
+
+Or use GitHub → Vercel auto-deployment.
 
 ## Contributing
 
-We welcome contributions from the horse-loving community! If you have ideas for improvements, bug reports, or want to contribute code, please check our [Contribution Guidelines](CONTRIBUTING.md) for details on how to get involved.
+PRs are welcome! You can contribute by:
+
+* improving UI/UX
+* optimizing performance
+* adding animations
+* cleaning up existing components
+* reporting issues
 
 ## License
 
-Equine Tracker is open-source software licensed under the Apache License 2.0. For full details, refer to the [LICENSE](LICENSE) file.
+BetterKFC is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+---
 
-We'd like to extend our gratitude to the equestrian community for their support and inspiration. Equine Tracker wouldn't be possible without you.
-
-![Horse Image 3](images/horse3.jpg)
-![Horse Image 4](images/horse4.jpg)
-
-Thank you for choosing Equine Tracker, and may your horses thrive and gallop with joy!
+If you like the project, consider starring the repository — it helps the project grow!
